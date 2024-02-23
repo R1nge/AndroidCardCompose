@@ -93,7 +93,7 @@ class MainActivity : ComponentActivity() {
             shape = RoundedCornerShape(20.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 5.dp)
         ) {
-            Box(modifier = Modifier.height(200.dp)) {
+            Box(modifier = Modifier.height(100.dp)) {
                 Image(
                     painter = painter,
                     contentDescription = contentDescription,
@@ -108,7 +108,7 @@ class MainActivity : ComponentActivity() {
                                     Color.Transparent,
                                     Color.Black
                                 ),
-                                startY = 300f
+                                startY = 100f
                             )
                         )
                 )
